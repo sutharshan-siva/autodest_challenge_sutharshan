@@ -23,7 +23,8 @@ if __name__ == "__main__":
     else: 
         debug_status = sys.argv[1] 
         if debug_status == "debug":
-            app.run(host="0.0.0.0", port=8080, debug=True)
+            log.setLevel(logging.DEBUG)
+            app.run(host="0.0.0.0", port=8080)
         else:
             print("passing arugment is incorrect and only debug option is supported")
             exit()
