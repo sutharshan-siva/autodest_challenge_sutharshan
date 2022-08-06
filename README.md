@@ -35,8 +35,11 @@ python python_api_code.py
 #Sample curl commands to test this code in another terminal tab.
 
 curl -H "Content-Type: application/xml" -X GET http://127.0.0.1:8080/
+
 curl -H "Content-Type: application/json" -X GET http://127.0.0.1:8080/
+
 curl -H "Content-Type: application/json" -X POST http://127.0.0.1:8080/
+
 curl -X POST http://127.0.0.1:8080/
 
 6> To run the code with debug logging level, execute below command.  
@@ -47,8 +50,11 @@ python python_api_code.py debug
 #Sample curl commands to test this code in another terminal tab.
 
 curl -H "Content-Type: application/xml" -X GET http://127.0.0.1:8080/
+
 curl -H "Content-Type: application/json" -X GET http://127.0.0.1:8080/
+
 curl -H "Content-Type: application/json" -X POST http://127.0.0.1:8080/
+
 curl -X POST http://127.0.0.1:8080/
 
 
