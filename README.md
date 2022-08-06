@@ -15,6 +15,7 @@ Make sure python3 is installed.
 1> log into the instance 
 
 2>  Clone the project 
+
 git clone https://github.com/sutharshan-siva/autodest_challenge_sutharshan.git
 
 3> Create  virtualenv with Python3
