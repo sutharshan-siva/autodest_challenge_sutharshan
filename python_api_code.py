@@ -19,12 +19,12 @@ if __name__ == "__main__":
     if len(sys.argv) <= 1: 
         print("No arguments given")
         log.setLevel(logging.ERROR)
-        app.run(host="0.0.0.0", port=8080)
+        app.run(host="0.0.0.0", port=8090)
     else: 
         debug_status = sys.argv[1] 
         if debug_status == "debug":
             log.setLevel(logging.DEBUG)
-            app.run(host="0.0.0.0", port=8080)
+            app.run(host="0.0.0.0", port=8090)
         else:
             print("passing arugment is incorrect,  only debug option is supported")
             exit()
